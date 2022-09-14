@@ -1,0 +1,29 @@
+//task-1 - condition statement
+let day="monday,tuesday";
+if(day=="monday"){
+    console.log("Here is starting of week - Monday");
+}
+else if(day=="monday,tuesday"){
+    console.log("monday tuesday");
+}
+else if(day=="tuesday"){
+    console.log("here is tuesday");
+}
+else if(day=="wednesday"){
+    console.log("here is wednesday");
+}
+else if(day=="thursday"){
+    console.log("here is thursday");
+}
+else if(day=="friday"){
+    console.log("here is friday");
+}
+else if(day=="saturday"){
+    console.log("here is saturday");
+}
+else if(day=="sunday"){
+    console.log("here is sunday");
+}
+else{
+    console.log("plz fill correct choice");
+}
