@@ -1,0 +1,6 @@
+//task 2 with function
+function num(x){
+    return Math.floor(x*100)/100;
+}
+x=123456789e-7;
+console.log(num(x));
